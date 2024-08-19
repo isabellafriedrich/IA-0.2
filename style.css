@@ -2,10 +2,10 @@
 
 
 :root {
-    --cor-fundo: #01080E;
-    --cor-principal: #0B0D20 ;
+    --cor-fundo: #010508;
+    --cor-principal: #02030f ;
     --cor-secundaria: #212333;
-    --cor-destaque: #2BDEFD;
+    --cor-destaque: #ff0000;
     --cor-texto: #D7F9FF;
     font-family: "Chakra Petch", sans-serif;
     font-weight: 300;
@@ -14,7 +14,7 @@
   
   body {
     background-color: var(--cor-fundo);
-    background-image: linear-gradient( to top, #32aafa, #01080E );
+    background-image: linear-gradient( to top, #aa0202, #01080E );
     color: var(--cor-texto);
     display: flex;
     justify-content: center;
