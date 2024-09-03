@@ -1,165 +1,125 @@
 export const perguntas = [
     {
-        enunciado: "Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
+        enunciado: "Após aceitar a missão, Você, Agente 007: você, recebeu uma missão urgente para investigar sinais de atividade vulcânica em uma região remota dos EUA. Você descobre que há uma preocupação crescente com o supervulcão de Yellowstone. Coisas estranhas estão acontecendo por lá. Qual é o primeiro passo que ele toma na investigação?",
         alternativas: [
             {
-                texto: "Isso é assustador!",
+                texto: "Investigar a atividade sísmica recente na região de Yellowstone.",
                 afirmacao: [
-                    "No início ficou com medo do que essa tecnologia pode fazer.",
-                    "Achou assustador pensar na velocidade na qual a tecnologia está avançando."
+                     "Você encontrou registros de um aumento significativo na atividade sísmica, o que indica que o supervulcão pode estar em perigo.",
+                     "Começou a colaborar com geólogos e cientistas para entender melhor a situação."
                 ],
                 proxima: 1,
             },
             {
-                texto: "Isso é maravilhoso!",
+                texto: "Consultar especialistas em vulcanologia sobre o estado atual da caldeira de Yellowstone.",
                 afirmacao: [
-                    "Quis saber como usar IA no seu dia a dia.",
-                    "Pensou que IA pode ajudar em tarefas da sua vida."
+                    "Os especialistas confirmaram que a caldeira está monitorada constantemente e há medidas preventivas em andamento.",
+                    "Você recebeu informações sobre os planos de evacuação em caso de erupção iminente."
                 ],
                 proxima: 2,
             },
         ]
     },
     {
-        enunciado: "Utilizar uma IA pode ser aterrorizante mesmo, e foi pensando nisso que uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
+        enunciado: "Após investigar a atividade sísmica e consultar especialistas, você descobre que a situação é mais crítica do que imaginava. Você também descobre que outra área está em risco: o vulcão Kilauea no Havaí. O que você faz a seguir?",
         alternativas: [
             {
-                texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
+                texto: "Aprofundar a análise sobre o Kilauea, verificando se há sinais de atividade recente.",
                 afirmacao: [
-                    "Conseguiu utilizar a IA para buscar informações úteis.",
-                    "Percebeu que a IA pode ajudar a encontrar informações úteis na internet de forma mais rápida e direcionada.",
-                    "Percebeu que a IA consegue explicar termos complicados de forma simplificada e isso ajudou muito suas pesquisas sobre assuntos complexos."
+                    "Você descobriu que o Kilauea está em erupção contínua e que a lava está se movendo para áreas habitadas.",
+                    "A situação no Havaí parece grave e requer ação imediata."
                 ],
                 proxima: 3,
             },
             {
-                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
+                texto: "Enviar uma equipe para o Havaí para coletar dados de campo sobre o vulcão Kilauea.",
                 afirmacao: [
-                    "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho.",
-                    "Achou que era muito mais fácil procurar por respostas utilizando alguns meios mais tradicionais mesmo que levasse mais tempo.",
-                    "Sentiu um pouco de medo de quais dados pessoais seus a IA poderia utilizar e por isso prefere fazer suas coisas com pouca intromissão da tecnologia."
+                    "Sua equipe relatou que as condições estão perigosas e que a lava está afetando comunidades locais.",
+                    "Eles coletaram amostras e dados que podem ser úteis para criar um plano de resposta."
                 ],
                 proxima: 4,
             },
         ]
     },
     {
-        enunciado: "Um chat com IA pode ser uma boa alternativa para realizar tarefas do dia a dia e foi pensando nisso que uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
+        enunciado: "Com as informações obtidas sobre o Kilauea e a caldeira de Yellowstone, você precisa coordenar uma resposta eficaz. Qual ação é mais apropriada para lidar com os riscos iminentes?",
         alternativas: [
             {
-                texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
-                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
+                texto: "Desenvolver um plano de evacuação para áreas próximas aos vulcões, com base nas informações coletadas.",
+                texto: "Trabalhar com cientistas para melhorar os sistemas de monitoramento e previsão de erupções.",
                 afirmacao: [
-                    "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho.",
-                    "Achou que era muito mais fácil procurar por respostas utilizando alguns meios mais tradicionais mesmo que levasse mais tempo.",
-                    "Sentiu um pouco de medo de quais dados pessoais seus a IA poderia utilizar e por isso prefere fazer suas coisas com pouca intromissão da tecnologia."
+                    "Você ajudou a criar um plano de evacuação detalhado e iniciou campanhas de conscientização para preparar a população.",
+                    "As autoridades locais estão agora mais preparadas para uma emergência.",
+                    "Você ajudou a implementar tecnologias avançadas para monitoramento em tempo real e previsão de atividades vulcânicas.",
+                    "Esses sistemas ajudarão a prevenir futuras crises e protegerão vidas."
                 ],
                 proxima: 4,
             },
         ]
     },
     {
-        enunciado: "Ferramentas de busca que utilizam IA podem facilitar muito nosso processo de busca por informações. Agora imagine que você precisa participar de um debate sobre o quanto a IA impacta no trabalho do futuro. Qual posicionamento tomar?",
+        enunciado: "Após a resposta imediata, a missão agora é focar na prevenção e na educação pública. O que você deve fazer para garantir que a população esteja preparada para futuros riscos vulcânicos?",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
+                texto: "Organizar workshops e campanhas educativas sobre segurança em áreas vulcânicas.",
                 afirmacao: [
-                    "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA.",
-                    "Participa ativamente do desenvolvimento de soluções criativas e na melhoria de processos em IA."
+                     "Você promoveu eventos educativos que ajudaram a comunidade a entender os riscos e como se proteger em caso de erupções.",
+                     "A população agora está mais informada e preparada para emergências vulcânicas."
                 ],
                 proxima: 5,
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
+                texto: "Apoiar pesquisas científicas sobre maneiras de mitigar os efeitos das erupções vulcânicas.",
                 afirmacao: [
-                    "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética.",
-                    "Criou grupos de ética voltado para IA e busca ativamente reduzir as desigualdades geradas pela automação."
+                    "Você financiou e apoiou pesquisas que exploram novos métodos para reduzir os danos causados por erupções.",
+                    "Essas pesquisas podem levar a soluções inovadoras para proteger comunidades no futuro."
                 ],
                 proxima: 6,
             },
         ]
     },
     {
-        enunciado: "Utilizar informações próprias traz um toque pessoal ao nosso trabalho. Agora imagine que você precisa participar de um debate sobre o quanto a IA impacta no trabalho do futuro. Qual posicionamento tomar?",
+        enunciado: "Com a situação atual sob controle e medidas preventivas em andamento, você agora avalia o sucesso da missão. Como você pretende garantir que o trabalho realizado continue a beneficiar a proteção ambiental e a segurança pública?",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
+                texto: "Estabelecer um programa contínuo de monitoramento e resposta a emergências vulcânicas.",
                 afirmacao: [
-                    "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA.",
-                    "Participa ativamente do desenvolvimento de soluções criativas e na melhoria de processos em IA."
+                   "Você ajudou a criar um programa que garante a continuidade do monitoramento e a pronta resposta a futuras emergências.",
+                   "Esse programa garante que as lições aprendidas sejam aplicadas a longo prazo."
                 ],
                 proxima: 5,
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
+                texto: "Implementar políticas para promover a pesquisa e a educação contínuas sobre vulcanologia e mudanças climáticas.",
                 afirmacao: [
-                    "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética.",
-                    "Criou grupos de ética voltado para IA e busca ativamente reduzir as desigualdades geradas pela automação."
+                     "Você apoiou a criação de políticas que incentivam a pesquisa contínua e a educação sobre vulcanologia e mudanças climáticas.",
+                     "Essas políticas ajudarão a manter a conscientização e a preparação para futuras crises."
                 ],
                 proxima: 6,
             },
         ]
     },
     {
-        enunciado: "Novas tecnologias trazem novos desafios, por isso após a elaboração do trabalho escrito, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
+        enunciado: "Após implementar as políticas e programas estabelecidos, a missão chega ao fim. O que você conclui sobre a importância de preparar e educar a população para os desafios ambientais?",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
+                texto: "A preparação e a educação são fundamentais para minimizar os riscos e proteger vidas em situações de emergência.",
                 afirmacao: [
-                    "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA.",
-                    "Participa ativamente do desenvolvimento de soluções criativas e na melhoria de processos em IA."
+                    "Você reflete sobre como a preparação e a educação ajudaram a salvar vidas e a minimizar danos durante a crise.",
+                    "A missão foi um sucesso e os aprendizados servirão para enfrentar futuros desafios."
                 ],
                 proxima: 7,
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
+                texto: "Investir em pesquisa e tecnologia é crucial para entender e mitigar os riscos ambientais de forma eficaz.",
                 afirmacao: [
-                    "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética.",
-                    "Criou grupos de ética voltado para IA e busca ativamente reduzir as desigualdades geradas pela automação."
+                     "Você avalia como a pesquisa e a tecnologia melhoraram a capacidade de resposta e prevenção durante a missão.",
+                     "O investimento contínuo em ciência e tecnologia é essencial para a proteção ambiental a longo prazo."
                 ],
                 proxima: 7,
-            },
-        ]
-    },
-    {
-        enunciado: "É muito importante refletir sobre os trabalhadores do futuro. Por isso a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
-        alternativas: [
-            {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
-                afirmacao: [
-                    "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA.",
-                    "Participa ativamente do desenvolvimento de soluções criativas e na melhoria de processos em IA."
-                ],
-                proxima: 7,
-            },
-            {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
-                afirmacao: [
-                    "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética.",
-                    "Criou grupos de ética voltado para IA e busca ativamente reduzir as desigualdades geradas pela automação."
-                ],
-                proxima: 7,
-            },
-        ]
-    },
-    {
-        enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
-        alternativas: [
-            {
-                texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.",
-                afirmacao: [
-                    "Notou também que muitas pessoas não sabem ainda utilizar as ferramentas tradicionais e decidiu compartilhar seus conhecimentos de design utilizando ferramentas de pintura digital para iniciantes.",
-                    "Ainda acha que os meios de desenho tradicionais são mais eficazes para a criatividade, por isso vem estimulando pessoas em suas redes sociais a fazer pintura em aquarela."
-                ],
-            },
-            {
-                texto: "Criar uma imagem utilizando um gerador de imagem de IA.",
-                afirmacao: [
-                    "Acelerou o processo de criação de trabalhos utilizando geradores de imagem e agora consegue ensinar pessoas que sentem dificuldades em desenhar manualmente como utilizar também!",
-                    "Compartilhou artes em redes sociais como forma de ensinar como se comunicar através da arte.",
-                    "Percebeu que muitas pessoas têm dificuldade em expressar suas ideias desenhando e acha que a IA é capaz de empoderar essas pessoas a tirarem ideias do papel."
-                ],
-            },
+            }
+
+        
         ]
     }
 ];
